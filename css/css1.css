@@ -2,5 +2,5 @@ body{
     background-color: ghostwhite;
 }
 a{
-    text-decoration-line: none;
+    display: inline-block;
 }

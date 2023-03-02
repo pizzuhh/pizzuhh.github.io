@@ -2,5 +2,5 @@ body{
     background-color: ghostwhite;
 }
 a{
-    white-space: nowrap;
+    text-decoration-line: none;
 }

@@ -11,5 +11,29 @@
 <br/>  <br/>  <br/> <!-- Spaces!!!! -->
 <p>This game is fan game of the <a href="https://store.steampowered.com/app/319510/Five_Nights_at_Freddys/">FNAF</a> franchise and <a href="https://gamejolt.com/games/tjocsm/139218">The joy of creation!</a> </p>
 <p>To download our game click <a href="https://github.com/pizzuhh/The-Ablutions">here</a></p>
+
+<h4 id="h41">cat?</h4>
+<input id="guess" type="text">
+<button id="bnt" onclick="cat()">CHECK</button>
+<img src="" id="map" alt="???">
+<script>
+  var txt = document.querySelector("#guess");
+  var btn = document.querySelector("#bnt");
+  var m = document.getElementById("map");
+  var h1 = document.getElementById("h41");
+
+  function cat()
+  {
+    if(txt.value === "CAT")
+    {
+      alert("congrats on discovering this :>");
+      m.src = "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.hs4x_ESYcD9uDxJ5VvhhdAHaEo%26pid%3DApi&f=1&ipt=ea50beae75483f317744c25ecb19dd2e0d7e8e418d3579cb6ddcf5922509729c&ipo=images";
+      h1.innerHTML = "This is the first map of our game :D a little sneak peak?"
+    }
+  }
+
+
+</script>
+
 </body>
 </html>

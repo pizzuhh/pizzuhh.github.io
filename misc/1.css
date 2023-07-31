@@ -1,0 +1,11 @@
+@font-face {
+    font-family: "Symbols Nerd Font";
+    src: url("fonts/nerd fonts/SymbolsNerdFont-Regular.ttf");
+    src: url("fonts/nerd fonts/SymbolsNerdFontMono-Regular.ttf");
+}
+
+body
+{
+    background: #8f8f8f;
+    font-family: "Symbols Nerd Font", serif;
+}

@@ -6,6 +6,17 @@
 
 body
 {
-    background: #8f8f8f;
+    background: #bcbcbc;
     font-family: "Symbols Nerd Font", serif;
+}
+#bottomstuff
+{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background: aqua;
+    width: 100%;
+    height: 25px;
+    text-align: start;
+
 }
